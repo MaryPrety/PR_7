@@ -1,0 +1,16 @@
+{
+  "name": "Мария",
+  "height": 170,
+  "weight": 63,
+  "initial_weight": 63,
+  "age": 21,
+  "city": "Москва",
+  "health_issues": ["allergies"],
+  "bmi": 22.3,
+  "bmi_category": "Норма",
+  "notifications": {
+    "high_temperature": true,
+    "low_pressure": false,
+    "pollen_alerts": true
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "type": "websocket_disconnect",
+    "source": "client",
+    "content": {
+      "uri": "ws://127.0.0.1:8765",
+      "status": "stopped"
+    },
+    "timestamp_client_received": "2025-05-14T15:44:19.811714"
+  },
+  {
+    "type": "websocket_connect_fail",
+    "source": "client",
+    "content": {
+      "uri": "ws://127.0.0.1:8765",
+      "error": "[WinError 1225] Удаленный компьютер отклонил это сетевое подключение"
+    },
+    "timestamp_client_received": "2025-05-14T15:44:19.806653"
+  },
+  {
+    "type": "websocket_attempt",
+    "source": "client",
+    "content": {
+      "uri": "ws://127.0.0.1:8765"
+    },
+    "timestamp_client_received": "2025-05-14T15:44:17.744061"
+  },
+  {
+    "type": "websocket_disconnect",
+    "source": "client",
+    "content": {
+      "uri": "ws://127.0.0.1:8765",
+      "status": "stopped"
+    },
+    "timestamp_client_received": "2025-05-14T15:43:22.086059"
+  },
+  {
+    "type": "websocket_connect_fail",
+    "source": "client",
+    "content": {
+      "uri": "ws://127.0.0.1:8765",
+      "error": "[WinError 1225] Удаленный компьютер отклонил это сетевое подключение"
+    },
+    "timestamp_client_received": "2025-05-14T15:43:22.080189"
+  },
+  {
+    "type": "websocket_attempt",
+    "source": "client",
+    "content": {
+      "uri": "ws://127.0.0.1:8765"
+    },
+    "timestamp_client_received": "2025-05-14T15:43:20.030652"
+  }
+]

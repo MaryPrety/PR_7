@@ -1,0 +1,15 @@
+{
+    "name": "Мария",
+    "height": 170,
+    "weight": 63,
+    "initial_weight": 63,
+    "goal_weight": 59,
+    "age": 21,
+    "city": "Москва",
+    "city_for_weather": "Москва",
+    "health_issues": [
+        "breathing"
+    ],
+    "bmi": 21.8,
+    "bmi_category": "Норма"
+}
