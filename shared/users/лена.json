@@ -1,0 +1,10 @@
+{
+    "name": "Лена",
+    "height": 165,
+    "weight": 55.0,
+    "initial_weight": 55.0,
+    "goal_weight": null,
+    "age": 49,
+    "city": "Москва",
+    "health_issues": []
+}

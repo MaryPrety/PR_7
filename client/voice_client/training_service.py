@@ -215,7 +215,7 @@ def get_training_recommendation_and_run(user_profile: dict, weather_conditions: 
         explain_exercise(current_ex_key)
         
         speak("Готовы начать это упражнение?")
-        user_response = listen_input(timeout_param=12, phrase_time_limit_param=5)
+        user_response = listen_input(timeout=12, phrase_time_limit=5)
         if user_response == "нет":
             speak("Упражнение пропущено.")
             # Не останавливаем музыку здесь, чтобы она могла продолжаться, если пользователь пропустил упражнение,
@@ -306,7 +306,7 @@ def handle_start_training_session_request(user_profile: dict, weather_data_for_t
     speak(" ".join(speak_w_parts))
 
     speak("Продолжить подготовку к тренировке?")
-    if listen_input(timeout_param=12, phrase_time_limit_param=5) != "да":
+    if listen_input(timeout=12, phrase_time_limit=5) != "да":
         speak("Подготовка к тренировке отменена.")
         return
     
